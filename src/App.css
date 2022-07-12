@@ -4,3 +4,9 @@
   justify-content: center;
   align-items: center;
 }
+
+.wallet-adapter-dropdown {
+    position: absolute;
+    top:20px;
+    right:20px;
+}
