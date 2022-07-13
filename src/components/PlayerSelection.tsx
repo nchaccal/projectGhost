@@ -5,7 +5,7 @@ import { Connection, clusterApiUrl, PublicKey } from "@solana/web3.js";
 
 const PlayerSelection: FC = () => {
 
-    //TO GET THE PUBLIC KEY OF THE CONNECTED WALLET
+    //TO GET THE PUBLIC KEY OF THE CONNECTED WALLET 
     const { publicKey } = useWallet();
     //TO MAKE THE CONECTION WITH THE NETWORK
     const connection = new Connection(clusterApiUrl("mainnet-beta") );
