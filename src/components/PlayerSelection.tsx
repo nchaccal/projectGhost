@@ -30,7 +30,7 @@ const PlayerSelection: FC = () => {
 
             //Fetch all NFTs from the given wallet and filter for those that are part of the same ghost collection. 
             const allNFTs = (await metaplex.nfts().findAllByOwner(owner)).filter(eachNft => eachNft.collection?.key.toBase58() === ghostsCollectionNFTs);
-            console.log(allNFTs)
+            console.log(allNFTs) 
             
 
         })();
